@@ -47,7 +47,7 @@ const ContactMe = () => {
         process.env.REACT_APP_EMAILJS_USER_ID
       )
       .then(
-        (response) => {
+        () => {
           setSubmitted(true);
           setLoading(false);
         },
