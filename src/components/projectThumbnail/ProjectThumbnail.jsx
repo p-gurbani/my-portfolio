@@ -52,11 +52,11 @@ const ProjectThumbnail = ({ project }) => {
           ))}
         </OverlaySkillsContainer>
         <LinksContainer>
-          <ProjectLink href={project.source} target="_blank">
-            <SourceButton>View source</SourceButton>
-          </ProjectLink>
           <ProjectLink href={project.link} target="_blank">
             <OpenProjectButton>Open Project</OpenProjectButton>
+          </ProjectLink>
+          <ProjectLink href={project.source} target="_blank">
+            <SourceButton>View source</SourceButton>
           </ProjectLink>
         </LinksContainer>
       </Overlay>
