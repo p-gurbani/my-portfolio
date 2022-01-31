@@ -9,6 +9,7 @@ const projects = [
     img: Blaug,
     tech: ["react.js", "node.js", "css", "styled-components"],
     link: "https://blaug.herokuapp.com",
+    source: "https://github.com/p-gurbani/blaug",
   },
   {
     id: "portfolio",
@@ -17,27 +18,8 @@ const projects = [
     img: Portfolio,
     tech: ["react.js", "javascript", "css", "styled-components"],
     link: "https://pankajgurbani.com",
+    source: "https://github.com/p-gurbani/my-portfolio",
   },
-  // {
-  //   id: "blaug2",
-  //   name: "Blaug",
-  //   img: Blaug,
-  // },
-  // {
-  //   id: "blaug3",
-  //   name: "Blaug",
-  //   img: Blaug,
-  // },
-  // {
-  //   id: "blaug4",
-  //   name: "Blaug",
-  //   img: Blaug,
-  // },
-  // {
-  //   id: "blaug5",
-  //   name: "Blaug",
-  //   img: Blaug,
-  // },
 ];
 
 export default projects;

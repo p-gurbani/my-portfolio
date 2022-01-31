@@ -1,10 +1,14 @@
 import {
+  LinksContainer,
+  OpenProjectButton,
   Overlay,
   OverlayDesc,
   OverlayHeading,
   OverlaySkillsContainer,
   Project,
   ProjectImage,
+  ProjectLink,
+  SourceButton,
 } from "./projectThumbnailStyled";
 import { darkTheme, THEMES } from "../../theme/themes";
 import skills from "../../data/skills";
@@ -35,7 +39,7 @@ const ProjectThumbnail = ({ project }) => {
   }, [project.tech]);
 
   return (
-    <Project href={project.link} target="_blank">
+    <Project target="_blank">
       <ProjectImage src={project.img} />
       <Overlay bgColor={bgColor} color={color} shadowColor={shadowColor}>
         <OverlayHeading>{project.name}</OverlayHeading>
@@ -47,6 +51,14 @@ const ProjectThumbnail = ({ project }) => {
             </SkillIconContainer>
           ))}
         </OverlaySkillsContainer>
+        <LinksContainer>
+          <ProjectLink href={project.source} target="_blank">
+            <SourceButton>View source</SourceButton>
+          </ProjectLink>
+          <ProjectLink href={project.link} target="_blank">
+            <OpenProjectButton>Open Project</OpenProjectButton>
+          </ProjectLink>
+        </LinksContainer>
       </Overlay>
     </Project>
   );
