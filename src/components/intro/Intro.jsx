@@ -16,7 +16,7 @@ const Intro = () => {
       <IntroText>
         "A full-stack&nbsp;
         <IntroHighlight>web-developer & UI/UX designer</IntroHighlight> focused
-        on building useful & beautiful applications"
+        on building useful & attractive web apps"
       </IntroText>
     </IntroContainer>
   );

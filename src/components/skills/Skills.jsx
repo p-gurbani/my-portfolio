@@ -59,7 +59,7 @@ const Skills = () => {
         ))}
         {!filteredSkills.length && (
           <MessageBox color={theme.colors.text.placeholder}>
-            Looks like I don't have that skill, search for something else maybe?
+            I may have that skill, reach out to me to know more!
           </MessageBox>
         )}
       </SkillShowcaseContainer>
