@@ -19,6 +19,7 @@ export const Logo = styled.span`
   font-size: 20px;
   font-weight: bold;
   line-height: 0;
+  color: ${({ color }) => color};
 `;
 export const SmallCase = styled.span`
   font-size: 31px;
