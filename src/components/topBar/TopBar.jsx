@@ -35,7 +35,7 @@ const TopBar = ({ toggleTheme }) => {
     >
       <Left>
         <NavLink className="link" to="/">
-          <Logo color={theme.colors.heading}>
+          <Logo color={theme.colors.text.heading}>
             <SmallCase>P</SmallCase>ANKA<SmallCase>J</SmallCase>
           </Logo>
         </NavLink>
